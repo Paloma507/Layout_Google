@@ -227,7 +227,7 @@ outline: none;
  @media (max-width: 600px) {
      .txt{ 
     
-    width: 400px;
+    width: 300px;
     
     
     
@@ -237,7 +237,7 @@ outline: none;
     
     .caixa_de_texto #ps{
 
-        margin-right: 370px;
+        margin-right: 260px;
         top: 11px;
         width: 23px;
         
@@ -245,7 +245,7 @@ outline: none;
         
         .caixa_de_texto #ts{
         
-        margin-left: 150px;
+        margin-left: 50px;
         top: 11px;
         width: 28px;
         
@@ -254,7 +254,7 @@ outline: none;
         
         .caixa_de_texto #ms{
         
-        margin-left: 250px;
+        margin-left: 150px;
         top: 11px;
         width: 28px;
         
@@ -262,7 +262,7 @@ outline: none;
         
         .caixa_de_texto #cs{
         
-        margin-left: 350px;
+        margin-left: 250px;
         top: 11px;
         width: 35px;
         
@@ -270,13 +270,22 @@ outline: none;
     
     .nomes{
         font-size: 60%;
-        gap: 3%;
+        gap: 10%;
+        display: flex;
+        white-space: wrap;
     }
     
     .rodape{
         gap: 10%;
+        
     }
-    
-    
+    #t{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .google img{
+        width: 350px;
+    }
     
     }
