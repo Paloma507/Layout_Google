@@ -174,6 +174,7 @@ margin-top: 1.5%;
 background-color: rgb(32, 33, 36);
 color: azure;
 outline: none;
+margin-left: 0;
 
 }
 
@@ -286,6 +287,9 @@ outline: none;
    
     .google img{
         width: 300px;
+    }
+    .caixa{
+        width: 250px;
     }
     
     }
